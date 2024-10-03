@@ -1,18 +1,18 @@
-<?xml version-"1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
     <TextView
-        android:id="@+id/textViewCount"
+        android:id="@+id/counter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Licznik: 8"
+        android:text="Licznik: 0"
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/buttonIncrement"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Zwiększ"/>
