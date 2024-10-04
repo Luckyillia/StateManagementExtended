@@ -18,12 +18,20 @@
         android:text="Zwiększ"/>
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Text" />
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Text" android:minHeight="48dp"/>
+
+    <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcja zaznaczona"
+            android:visibility="gone"
+            android:textSize="24sp" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -32,8 +40,8 @@
         android:text="CheckBox" />
 
     <Switch
-        android:id="@+id/switch1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Switch" />
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" android:minHeight="48dp"/>
 </LinearLayout>
